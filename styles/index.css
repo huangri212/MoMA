@@ -1,0 +1,264 @@
+body{
+	width: 900px;
+	position: absolute;
+	overflow: hidden;
+	left: 450px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+#header{
+	height: 100px;
+	background-color: #425563;
+}
+h1,h2,h3{
+	margin: 0px;
+	padding: 0px;
+}
+#header h1{
+	font-size: 40px;
+	padding-top: 40px;
+	padding-left: 10px;
+	color: #eeeeee;
+}
+h3{
+	padding: 5px 10px;	
+	color: #EEEEEE;
+	background: #425563;
+	height: 20px;
+	width: 300px;
+}
+#detail-content h4{
+	color: #ffffff;
+	font-size: 20px;
+	background: #425563;
+	padding:5px 10px;
+}
+#content{
+	position: absolute;
+	left: 5px;
+	top:166px;
+	display: inline;
+	width: 900px;
+	display: inline;
+}
+.content-left{
+	float: left;
+}
+.news{
+	position:relative;
+	padding-bottom:0px;
+	width: 320px;
+	border-bottom:10px #EEEEEE solid; 
+	border-left: 1px #425563 solid;
+	border-right: 1px #425563 solid;
+}
+.content-left .scrollNews{
+	width: 300px;
+	height: 100px;
+	line-height: 20px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.content-left .scrollNews li{
+	list-style-type: none;
+	height: 25px;
+	padding-left: 10px;
+	font-weight: 800;
+}
+.content-left .scrollNews li a{
+	color: #000000;
+}
+
+.module-up-down{
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	cursor: pointer;
+}
+.module-up-down img{
+	width: 10px;
+	height: 12px;
+}
+.rotate{
+	-moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.procatalog{
+	position: relative;
+	background-color: #EEEEEE;
+	border-left: 1px #425563 solid;
+	border-right: 1px #425563 solid;
+	border-bottom:10px #EEEEEE solid;
+}
+#class ul li{
+	list-style-type: none;
+	padding-left: 20px;
+	font-size: 26px;
+	font-weight: 600;
+
+}
+#class .m-treevies ul li span{
+	list-style-type: none;
+	padding: 20px;
+	cursor: pointer;
+}
+#class .m-treeview li.m-expanded{
+	list-style-type: none;
+	padding-left: 50px;
+	padding-top: 15px;
+	background: url(../images/treeview-expanded.gif) no-repeat 4px 6px;
+	cursor: pointer;
+	background-color: #ffffff;
+}
+#class .m-treeview li.m-collapsed{
+	list-style-type: none;
+	line-height: 50px;
+	padding-left: 20px;
+	background: url(../images/treeview-collapsed.gif) no-repeat 4px 6px;
+	cursor: pointer;
+}
+#class .m-treeview li.m-expanded ul li{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	list-style-type: none;
+	background:url(../images/treeview-item.gif)  no-repeat 4px 6px;
+	cursor: pointer;
+}
+.content-right{
+	position: relative;
+	width: 570px;
+	float: right;
+}
+.ads{
+	position: relative;
+	height:150px;
+	width: 566px;
+	border-bottom:20px #EEEEEE solid; 
+	overflow: hidden;
+}
+
+.ads ul.slides li{
+	list-style-type: none;
+	display: inline;
+}
+.ads .slides{
+	position: absolute;
+}
+.ads .slides img{
+	display: block;
+}
+.num{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.num li{
+	margin-right: 10px;
+	margin-left: 10px; 
+	line-height: 15px;
+	color: #FF7300;
+	width: 18px;
+	height: 18px;
+	list-style-type: none;
+	float: left;
+	border: 1px solid #FF7300;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.num li.on{
+	text-align: center;
+	color: #fff;
+	line-height: 21px;
+	width: 21px;
+	height: 21px;
+	font-size: 16px;
+	margin: 0 1px;
+	border: 0;
+	background-color: #FF7300;
+	font-weight: bold;
+}
+.content-right h3{	
+	width: 560px;
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #425563;
+	padding-left: 10px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.content-right .product{
+	position: relative;
+	height: 220px;
+	overflow: hidden;
+}
+.content-right .product .brandnew{
+	position: absolute;
+	top: 50px;
+	overflow: hidden;
+}
+.brandnew ul{
+	width: 1800px;
+}
+.content-right .brandnew ul li {
+	width: 124px;
+	height: 220px;
+	margin: 0px 10px;
+	list-style-type: none;
+	display: block;
+	float: left;
+}
+.content-right .brandnew ul li img{
+	width: 124px;
+	height: 124px;
+}
+.content-right .brandnew ul li span{
+	text-align: center;
+	display: block;
+}
+.previous{
+	position: absolute;
+	top: 10px;
+	right: 30px; 
+	cursor: pointer;
+}
+.next{
+	position: absolute;
+	right: 10px;
+	top: 10px; 
+	cursor: pointer;
+}
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:1px;
+	color:#333;
+	display: none;
+}
+
+
+/* imgHover */
+span.imageMask{
+	background:white; 
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity: 0;	
+}
+span.imageOver{
+	background:url(../images/zoom.gif) no-repeat 50% 50%;	
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;	
+}
+

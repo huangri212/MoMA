@@ -1,0 +1,46 @@
+#navi{
+	width:auto; 
+	padding:8px; 
+	margin:10px auto; 
+	padding-top: 20px;
+	background:#425563;
+	height:18px;
+}
+#navi ul li {
+	list-style-type: none;
+	float:left; 
+	margin-right:14px;
+	position: relative ;
+	z-index:100;
+}
+#navi ul li a{
+	display:block;
+	padding:0 8px; 
+	background:#EEEEEE; 
+	font-weight:700;
+	font-size: 20px;
+}
+#navi ul li a:hover{
+	color:#ffffff;
+	background: none;
+}
+#navi ul li ul{
+	background-color: #425563;
+	position: absolute;
+	width: 200px;
+	overflow:hidden;
+	display:none;
+}
+#navi ul li:hover ul {
+	background-color: #425563;
+	position: absolute;
+	width: auto;
+	display:block;
+	
+}
+#navi ul li ul li{
+	margin-left: 0px;
+	text-align: left;
+	border-bottom: 1px solid #BBB;
+	width: 200px;
+}
